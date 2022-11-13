@@ -9999,3 +9999,4 @@ CaseOrder,Population,Area,Children,Age,Income,Marital,Gender,Churn,Outage_sec_pe
 9998,406,Rural,1,48,45983.43,Never Married,Female,No,6.590911,10,0,0,No,Month-to-month,No,No,Fiber Optic,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Bank Transfer(automatic),47.41689,169.9741,4159.305799
 9999,35575,Urban,1,39,16667.58,Separated,Male,No,12.07191,14,1,0,No,Two Year,No,Yes,Fiber Optic,No,Yes,No,No,No,Yes,Yes,Yes,Yes,Credit Card (automatic),71.0956,252.624,6468.456752
 10000,12230,Urban,1,28,9020.92,Never Married,Male,No,11.75472,17,1,0,No,Month-to-month,Yes,No,Fiber Optic,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Electronic Check,63.35086,217.484,5857.586167
+
