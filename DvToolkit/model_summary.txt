@@ -1,0 +1,29 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:          MonthlyCharge   R-squared (uncentered):                   0.947
+Model:                            OLS   Adj. R-squared (uncentered):              0.947
+Method:                 Least Squares   F-statistic:                          2.516e+04
+Date:                Tue, 26 Jul 2022   Prob (F-statistic):                        0.00
+Time:                        08:26:14   Log-Likelihood:                         -35901.
+No. Observations:                7000   AIC:                                  7.181e+04
+Df Residuals:                    6995   BIC:                                  7.185e+04
+Df Model:                           5                                                  
+Covariance Type:            nonrobust                                                  
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+InternetService_Fiber_Optic    53.5747      0.911     58.778      0.000      51.788      55.361
+Multiple_Yes                   63.4271      0.899     70.591      0.000      61.666      65.188
+OnlineBackup_Yes               53.8709      0.899     59.949      0.000      52.109      55.632
+StreamingTV_Yes                75.5304      0.880     85.828      0.000      73.805      77.255
+StreamingMovies_Yes            84.8299      0.888     95.505      0.000      83.089      86.571
+==============================================================================
+Omnibus:                      124.858   Durbin-Watson:                   1.675
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              101.817
+Skew:                           0.223   Prob(JB):                     7.77e-23
+Kurtosis:                       2.612   Cond. No.                         2.35
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
