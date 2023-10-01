@@ -1,0 +1,57 @@
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          MonthlyCharge   R-squared:                       0.973
+Model:                            OLS   Adj. R-squared:                  0.973
+Method:                 Least Squares   F-statistic:                     8986.
+Date:                Sat, 30 Sep 2023   Prob (F-statistic):               0.00
+Time:                        20:12:44   Log-Likelihood:                -23589.
+No. Observations:                7000   AIC:                         4.724e+04
+Df Residuals:                    6971   BIC:                         4.743e+04
+Df Model:                          28                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+Churn[T.1]                     2.1942      0.266      8.261      0.000       1.674       2.715
+InternetService_Fiber[T.1]    32.6256      0.223    146.025      0.000      32.188      33.064
+InternetService_DSL[T.1]     -37.7013      0.858    -43.939      0.000     -39.383     -36.019
+Multiple[T.1]                 23.3630      0.223    104.716      0.000      22.926      23.800
+OnlineBackup[T.1]             10.9733      0.252     43.477      0.000      10.479      11.468
+DeviceProtection[T.1]          1.9774      0.242      8.168      0.000       1.503       2.452
+TechSupport[T.1]              12.2117      0.175     69.811      0.000      11.869      12.555
+StreamingTV[T.1]              13.8825      0.487     28.528      0.000      12.929      14.836
+StreamingMovies[T.1]          26.2022      0.454     57.661      0.000      25.311      27.093
+Children                      -3.7744      0.073    -51.597      0.000      -3.918      -3.631
+Tenure                        -9.9279      0.164    -60.591      0.000     -10.249      -9.607
+Rural[0]                      50.4396      0.766     65.844      0.000      48.938      51.941
+Rural[1]                      50.5199      0.773     65.353      0.000      49.004      52.035
+Contract_Monthly[T.1]         -0.7178      0.181     -3.965      0.000      -1.073      -0.363
+OnlineSecurity[T.1]           -6.6064      0.235    -28.128      0.000      -7.067      -6.146
+Age                            0.3971      0.008     52.041      0.000       0.382       0.412
+Bandwidth_GB_Year              0.1214      0.002     60.794      0.000       0.117       0.125
+Income                      7.033e-06   2.95e-06      2.385      0.017    1.25e-06    1.28e-05
+Techie[T.1]                    0.3192      0.228      1.397      0.162      -0.129       0.767
+Port_modem[T.1]               -0.2470      0.169     -1.463      0.143      -0.578       0.084
+Tablet[T.1]                    0.0372      0.185      0.201      0.841      -0.326       0.400
+PaperlessBilling[T.1]         -0.0950      0.171     -0.554      0.579      -0.431       0.241
+PaymentMethod_Auto[T.1]       -0.1036      0.171     -0.607      0.544      -0.438       0.231
+Population                  8.341e-06    5.9e-06      1.413      0.158   -3.23e-06    1.99e-05
+Outage_sec_perweek            -0.0122      0.028     -0.431      0.666      -0.068       0.043
+Email                          0.0016      0.028      0.056      0.955      -0.053       0.057
+Contacts                      -0.0269      0.085     -0.317      0.751      -0.193       0.139
+Yearly_equip_failure           0.0084      0.132      0.064      0.949      -0.250       0.267
+Phone[T.1]                    -0.1985      0.289     -0.686      0.493      -0.766       0.369
+==============================================================================
+Omnibus:                     2216.064   Durbin-Watson:                   1.994
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              327.261
+Skew:                          -0.012   Prob(JB):                     8.63e-72
+Kurtosis:                       1.941   Cond. No.                     7.70e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.7e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+P-Value > 0.05 <- Exclude feature from the model

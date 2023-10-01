@@ -1,0 +1,37 @@
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          MonthlyCharge   R-squared:                       0.958
+Model:                            OLS   Adj. R-squared:                  0.957
+Method:                 Least Squares   F-statistic:                 1.433e+04
+Date:                Sat, 30 Sep 2023   Prob (F-statistic):               0.00
+Time:                        21:06:31   Log-Likelihood:                -25177.
+No. Observations:                7000   AIC:                         5.038e+04
+Df Residuals:                    6988   BIC:                         5.046e+04
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+Churn[0]                      71.3681      0.374    190.896      0.000      70.635      72.101
+Churn[1]                      74.4711      0.448    166.412      0.000      73.594      75.348
+InternetService_Fiber[T.1]    32.6688      0.280    116.801      0.000      32.121      33.217
+InternetService_DSL[T.1]      12.6084      0.293     43.058      0.000      12.034      13.182
+Multiple[T.1]                 32.0407      0.215    149.024      0.000      31.619      32.462
+OnlineBackup[T.1]             22.3559      0.213    105.022      0.000      21.939      22.773
+DeviceProtection[T.1]         12.4752      0.213     58.443      0.000      12.057      12.894
+TechSupport[T.1]              12.6232      0.219     57.694      0.000      12.194      13.052
+StreamingTV[T.1]              41.5748      0.221    188.251      0.000      41.142      42.008
+StreamingMovies[T.1]          51.6819      0.226    228.813      0.000      51.239      52.125
+Tenure                         0.0262      0.005      5.562      0.000       0.017       0.035
+Children                      -0.0266      0.049     -0.540      0.589      -0.123       0.070
+==============================================================================
+Omnibus:                    26386.936   Durbin-Watson:                   1.995
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1013.929
+Skew:                           0.023   Prob(JB):                    6.73e-221
+Kurtosis:                       1.136   Cond. No.                         250.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
