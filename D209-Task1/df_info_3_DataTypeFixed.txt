@@ -1,0 +1,50 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 43 columns):
+ #   Column                                  Non-Null Count  Dtype  
+---  ------                                  --------------  -----  
+ 0   Population                              10000 non-null  float64
+ 1   Children                                10000 non-null  float64
+ 2   Age                                     10000 non-null  float64
+ 3   Income                                  10000 non-null  float64
+ 4   Outage_sec_perweek                      10000 non-null  float64
+ 5   Email                                   10000 non-null  float64
+ 6   Contacts                                10000 non-null  float64
+ 7   Yearly_equip_failure                    10000 non-null  float64
+ 8   Tenure                                  10000 non-null  float64
+ 9   MonthlyCharge                           10000 non-null  float64
+ 10  Bandwidth_GB_Year                       10000 non-null  float64
+ 11  Area_Rural                              10000 non-null  int64  
+ 12  Area_Suburban                           10000 non-null  int64  
+ 13  Area_Urban                              10000 non-null  int64  
+ 14  Marital_Divorced                        10000 non-null  int64  
+ 15  Marital_Married                         10000 non-null  int64  
+ 16  Marital_Never Married                   10000 non-null  int64  
+ 17  Marital_Separated                       10000 non-null  int64  
+ 18  Marital_Widowed                         10000 non-null  int64  
+ 19  Gender_Female                           10000 non-null  int64  
+ 20  Gender_Male                             10000 non-null  int64  
+ 21  Gender_Nonbinary                        10000 non-null  int64  
+ 22  Churn_Yes                               10000 non-null  int64  
+ 23  Techie_Yes                              10000 non-null  int64  
+ 24  Contract_Month-to-month                 10000 non-null  int64  
+ 25  Contract_One year                       10000 non-null  int64  
+ 26  Contract_Two Year                       10000 non-null  int64  
+ 27  Port_modem_Yes                          10000 non-null  int64  
+ 28  Tablet_Yes                              10000 non-null  int64  
+ 29  InternetService_DSL                     10000 non-null  int64  
+ 30  Phone_Yes                               10000 non-null  int64  
+ 31  Multiple_Yes                            10000 non-null  int64  
+ 32  OnlineSecurity_Yes                      10000 non-null  int64  
+ 33  OnlineBackup_Yes                        10000 non-null  int64  
+ 34  DeviceProtection_Yes                    10000 non-null  int64  
+ 35  TechSupport_Yes                         10000 non-null  int64  
+ 36  StreamingTV_Yes                         10000 non-null  int64  
+ 37  StreamingMovies_Yes                     10000 non-null  int64  
+ 38  PaperlessBilling_Yes                    10000 non-null  int64  
+ 39  PaymentMethod_Bank Transfer(automatic)  10000 non-null  int64  
+ 40  PaymentMethod_Credit Card (automatic)   10000 non-null  int64  
+ 41  PaymentMethod_Electronic Check          10000 non-null  int64  
+ 42  PaymentMethod_Mailed Check              10000 non-null  int64  
+dtypes: float64(11), int64(32)
+memory usage: 3.3 MB

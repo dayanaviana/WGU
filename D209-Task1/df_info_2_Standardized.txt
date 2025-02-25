@@ -1,6 +1,6 @@
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 10000 entries, 0 to 9999
-Data columns (total 29 columns):
+Data columns (total 30 columns):
  #   Column                Non-Null Count  Dtype  
 ---  ------                --------------  -----  
  0   Population            10000 non-null  float64
@@ -22,15 +22,16 @@ Data columns (total 29 columns):
  16  Contract              10000 non-null  object 
  17  Port_modem            10000 non-null  object 
  18  Tablet                10000 non-null  object 
- 19  Phone                 10000 non-null  object 
- 20  Multiple              10000 non-null  object 
- 21  OnlineSecurity        10000 non-null  object 
- 22  OnlineBackup          10000 non-null  object 
- 23  DeviceProtection      10000 non-null  object 
- 24  TechSupport           10000 non-null  object 
- 25  StreamingTV           10000 non-null  object 
- 26  StreamingMovies       10000 non-null  object 
- 27  PaperlessBilling      10000 non-null  object 
- 28  PaymentMethod         10000 non-null  object 
-dtypes: float64(11), object(18)
-memory usage: 2.2+ MB
+ 19  InternetService       10000 non-null  object 
+ 20  Phone                 10000 non-null  object 
+ 21  Multiple              10000 non-null  object 
+ 22  OnlineSecurity        10000 non-null  object 
+ 23  OnlineBackup          10000 non-null  object 
+ 24  DeviceProtection      10000 non-null  object 
+ 25  TechSupport           10000 non-null  object 
+ 26  StreamingTV           10000 non-null  object 
+ 27  StreamingMovies       10000 non-null  object 
+ 28  PaperlessBilling      10000 non-null  object 
+ 29  PaymentMethod         10000 non-null  object 
+dtypes: float64(11), object(19)
+memory usage: 2.3+ MB
